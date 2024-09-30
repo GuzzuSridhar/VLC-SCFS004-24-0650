@@ -26,6 +26,13 @@ public class ClassTwo {
         c1.publicField = 10;
         // accessing the default scope valriable
         c1.defaultField = 10;
+
+        // accessing private method
+        // c1.privateMethod(); // not allowed
+        // accessing public method
+        c1.publicMethod();
+        // accessing default scope method
+        c1.defaultMethod();
     }
 
 }
