@@ -20,4 +20,8 @@ public class Utils {
     public static final String ANSI_CYAN_BG = "\u001B[46m";
     public static final String ANSI_WHITE_BG = "\u001B[77m";
 
+    public static void rightAlign(String text) {
+        System.out.printf("%20s %n", text);
+    }
+
 }
