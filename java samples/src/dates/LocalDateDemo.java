@@ -27,6 +27,6 @@ public class LocalDateDemo {
 
 /*
  * API class to work with date objects
- * No object of the local date class can be created ( no new keyword can be used
+ * No object of the LocalDate class can be created ( no new keyword can be used
  * as it is a final class from API)
  */
