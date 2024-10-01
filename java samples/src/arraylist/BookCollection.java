@@ -28,7 +28,9 @@ public class BookCollection {
         // toString() is called
 
         for (Book book : books) {
-            System.out.println(book);
+            // System.out.println(book.bookId + " - " + book.bookName + " - " +
+            // book.author); // without the toString()
+            System.out.println(book); // print the same format with the toString()
         }
 
         input.close();
