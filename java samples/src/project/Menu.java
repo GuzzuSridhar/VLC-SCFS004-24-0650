@@ -15,6 +15,9 @@ public class Menu {
         System.out.println("4. Perform Transaction");
         System.out.println("5. Exit" + Utils.ANSI_RESET);
         choice = opt.nextByte();
+        if (choice == 1) {
+            AddAccts.addAcct();
+        }
 
         opt.close();
 

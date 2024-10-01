@@ -13,8 +13,8 @@ public class BankAccount {
         this.createDate = createDate;
     }
 
-    @SuppressWarnings("unused")
-    public static void main(String[] args) {
-        BankAccount acct1 = new BankAccount(100, 99f, LocalDateTime.now());
-    }
+    // @SuppressWarnings("unused")
+    // public static void main(String[] args) {
+    // BankAccount acct1 = new BankAccount(100, 99f, LocalDateTime.now());
+    // }
 }
