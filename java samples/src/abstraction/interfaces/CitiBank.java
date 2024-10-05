@@ -1,6 +1,6 @@
 package abstraction.interfaces;
 
-public class CitiBank implements Bank {
+public class CitiBank implements Bank, Govt { // using multiple inheritence
 
     @Override
     public float fdInterest(float depAmt, int period) {
@@ -14,6 +14,11 @@ public class CitiBank implements Bank {
         float roi = 3.8f;
         float interestPaid = (depAmt * period * roi) / 100;
         return interestPaid;
+    }
+
+    @Override
+    public void archive() {
+        System.out.println("Archived");
     }
 
 }

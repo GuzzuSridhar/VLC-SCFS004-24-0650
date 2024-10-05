@@ -9,4 +9,5 @@ public interface Bank {
 /*
  * Interfaces cannot have concrete methods (Methods that have body)
  * upto Java 8 all methods in Interfaces were abstract implicitly
+ * can be used to also implement mutiple inheritence
  */
