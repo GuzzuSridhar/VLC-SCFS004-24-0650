@@ -3,8 +3,17 @@ package abstraction.interfaces;
 import java.util.Scanner;
 
 public class BankDriver {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         CitiBank citiBank = new CitiBank();
+
+        // interfaces cannot be instantiated
+        // Bank b = new Bank(); // not allowed
+
+        // interface can be instantiated as a class implementing the interface
+        Bank b = new CitiBank();
+        Bank c = new MayBank();
+
         // MayBank mayBank = new MayBank();
         Scanner scan = new Scanner(System.in);
         System.out.print("Please Enter a Deposit Type (FD/RD)");
