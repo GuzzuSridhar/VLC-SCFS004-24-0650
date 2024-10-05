@@ -15,4 +15,9 @@ public class MayBank implements Bank { // implementing the interface
         return interestPaid;
     }
 
+    @Override
+    public void newInstruction() {
+
+    }
+
 }
