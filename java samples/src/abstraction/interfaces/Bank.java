@@ -30,6 +30,6 @@ public interface Bank {
  * 
  * Interface can have (above ver 8 of java)
  * abstract
- * static
+ * static (no override)
  * default
  */

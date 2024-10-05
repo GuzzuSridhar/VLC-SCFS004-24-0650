@@ -21,4 +21,14 @@ public class CitiBank implements Bank, Govt { // using multiple inheritence
         System.out.println("Archived");
     }
 
+    @Override
+    public void newInstruction() {
+
+    }
+
+    @Override
+    public void moreInstructions() {
+
+    }
+
 }
