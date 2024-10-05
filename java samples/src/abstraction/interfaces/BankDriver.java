@@ -19,6 +19,7 @@ public class BankDriver {
 
             System.out.println(" The return for an investment of $ " + amt + " for a period of " + prd + " will yeild :"
                     + (amt + cbInterest) + " with CitiBank");
+            Bank.archive(); // method implemented by the interface
             // System.out.println(" The return for an investment of $ " + amt + " for a
             // period of " + prd + " will yeild :"
             // + (amt + mbInterest) + " with MayBank");

@@ -1,8 +1,7 @@
 package abstraction.interfaces;
 
-public class MayBank implements Bank {
+public class MayBank implements Bank { // implementing the interface
 
-    @Override
     public float fdInterest(float depAmt, int period) {
         float roi = 2.8f;
         float interestPaid = (depAmt * period * roi) / 100;
