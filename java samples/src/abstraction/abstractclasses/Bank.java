@@ -4,6 +4,8 @@ public abstract class Bank {
     // abstract method
     abstract double fdInterest(float amt, int period);
 
+    abstract double rdInterest(float amt, int period);
+
     // concrete method
     boolean isValid(String nric) {
         // check the nric
