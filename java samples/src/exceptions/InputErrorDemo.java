@@ -14,5 +14,7 @@ public class InputErrorDemo {
             System.out.println("Please enter a valid age");
         }
 
+        scan.close();
+
     }
 }
