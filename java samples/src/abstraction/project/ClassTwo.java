@@ -1,6 +1,6 @@
 package abstraction.project;
 
-public abstract class ClassTwo implements MyProject {
+public abstract class ClassTwo extends ClassOne {
 
     @Override
     public void method3() {
