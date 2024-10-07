@@ -1,6 +1,6 @@
 package abstraction.project;
 
-public class FinalOne extends ClassThree {
+public class Final extends ClassThree {
     public void callMethods() {
         method1();
         method2();
@@ -11,7 +11,7 @@ public class FinalOne extends ClassThree {
     }
 
     public static void main(String[] args) {
-        FinalOne finalOne = new FinalOne();
+        Final finalOne = new Final();
         finalOne.callMethods();
     }
 }
