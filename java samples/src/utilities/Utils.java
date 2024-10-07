@@ -1,4 +1,4 @@
-package project;
+package utilities;
 
 public class Utils {
     public static final String ANSI_RESET = "\u001B[0m";

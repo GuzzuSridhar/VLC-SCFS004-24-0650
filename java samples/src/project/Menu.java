@@ -1,25 +1,40 @@
 package project;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Menu {
-    public static void main(String[] args) {
-        int choice;
-        Scanner opt = new Scanner(System.in);
-        System.out.println(Utils.ANSI_BLUE + "Choose from the options" + Utils.ANSI_RESET);
-        System.out.println("---------------------");
-        System.out.println(Utils.ANSI_GREEN + "1. Open Account");
-        System.out.println("2. View Accounts");
-        System.out.println("3. View Account Details");
-        System.out.println("4. Perform Transaction");
-        System.out.println("5. Exit" + Utils.ANSI_RESET);
-        choice = opt.nextInt();
-        // choice = Utils.getValidNumber("Enter your choice");
-        if (choice == 1) {
-            AddAccts.addAcct();
+    static Scanner scan;
+    //    static int opt;
+        static boolean isOptValid;
+    
+        public static void mainMenu() {
+            int opt = 0;
+            try {
+                scan = new Scanner(System.in);
+                System.out.println("Please select from the following options");
+                System.out.println("----------------------------------------");
+                System.out.println("1. Add Account");
+                System.out.println("2. View accounts ");
+                System.out.println("3. Modify Account");
+                System.out.println("4. Close Account");
+                System.out.println("5. Deposit Money");
+                System.out.println("6. Withdraw Money");
+                System.out.println("7. View Balance");  
+                System.out.println("8. Exit");
+                System.out.println("Enter your choice: ");
+                opt = scan.nextInt();
+            } catch (InputMismatchException ie) {
+                System.out.println("Enter valid option");
+                mainMenu();
+            }
+    
+            if (opt >= 1 && opt <= 9) {
+                ExecuteOption.selectedOption(opt);
+            } else {
+                mainMenu();
+            }
+    
         }
-
-        opt.close();
-
-    }
+    
 }
