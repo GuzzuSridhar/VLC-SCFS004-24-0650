@@ -1,9 +1,20 @@
-Sum of Array Elements
-Find the Largest Element in an Array
-Reverse an Array
-Count Vowels and Consonants in a String
-Find Even and Odd Numbers in an Array
-Find if a give number is prime
-Palindrome Checker
-Sum of Digits in a Number
-Frequency of Elements in an Array
+# Sum of Array Elements
+# Find the Largest Element in an Array
+# Reverse an Array
+# Count Vowels and Consonants in a String
+# Find Even and Odd Numbers in an Array
+# Find if a give number is prime
+# Palindrome Checker
+# Sum of Digits in a Number
+# Frequency of Elements in an Array
+
+# Create a calculator that performs addition, subtraction, multiplication, and division based on user input.
+# Calculate the sum of the first N natural numbers, where N is provided by the user.
+# Write a program that computes the factorial of a number using both iterative and recursive methods.
+# Create a program that reverses a string entered by the user.
+# Write a program that checks if a given string is a palindrome.
+# Generate and print the Fibonacci series up to a given number of terms.
+# Create a program that checks whether a number is prime.
+# Write a program that counts the number of vowels and consonants in a given string.
+# Write a program that converts temperatures between Celsius and Fahrenheit.
+# Write a program that checks if a number is an Armstrong number.
